@@ -12,7 +12,7 @@ import { Button } from "@/components/ui/button";
  * agent uses automatic dispatch (joins every room automatically).
  */
 const AGENT_NAME = "";
-
+1;
 /**
  * A custom TokenSource that fetches credentials from the Electron main process
  * over IPC, so the LiveKit API secret stays out of the renderer.
