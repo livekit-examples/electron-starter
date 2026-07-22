@@ -1,0 +1,11 @@
+nodeLinker: hoisted
+
+allowBuilds:
+  electron-winstaller: false
+  unrs-resolver: false
+
+# @electron/rebuild pins @electron/node-gyp to a git commit, which blockExoticSubdeps
+# (on by default since pnpm 11) rejects as an exotic subdependency. Redirect just that
+# transitive dep to its npm-published equivalent so the protection stays on everywhere else.
+overrides:
+  '@electron/rebuild>@electron/node-gyp': '10.2.0-electron.2'
