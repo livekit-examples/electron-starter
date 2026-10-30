@@ -1,3 +1,6 @@
+> [!WARNING]
+> This example is archived and no longer maintained. For current examples, see [agent-starter-react](https://github.com/livekit-examples/agent-starter-react).
+
 # LiveKit Voice AI Agent — Electron Starter
 
 A minimal desktop starter for building voice AI apps with [LiveKit](https://livekit.io) and [Electron](https://www.electronjs.org). It connects to a LiveKit room, talks to your voice agent, and ships with a ready-made agent UI — audio visualizers, a live transcript, and a mic/screen-share control bar.
